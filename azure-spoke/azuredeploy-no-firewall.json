@@ -185,7 +185,7 @@
 	"variables": {
 		"location" : "[resourceGroup().location]",
 		"rgname" : "[resourceGroup().name]",
-		"baseUrl" : "https://raw.githubusercontent.com/jpeezus/TransitVNet1.0/master/azure-spoke",
+		"baseUrl" : "https://raw.githubusercontent.com/PaloAltoNetworks/Azure-Transit-VNet-0.1/master/azure-spoke",
 		"nsgURL" : "[concat(variables('baseUrl'),'/nsg-new.json')]",
 		"vnetURL" : "[concat(variables('baseUrl'),'/deployVnet.json')]",
 		"storageAccountSetupURL" : "[concat(variables('baseUrl'),'/deployStorage.json')]",
