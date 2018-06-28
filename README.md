@@ -14,11 +14,11 @@ This topology consists of
 -	2 VM-Series Firewalls
 -	1 Standard internal Load Balancer
 -	Linux Worker Node
-		Worker node uses the Tabular storage table to keep track of the Azure VMSS table and Panorama device list. During a scale down event the worker node will deactivate the license in the Support Portal and remove the firewall from Panorama. 
-		The worker node updates the NAT address object in the Spoke VM-series with the correct IP address of the spoke ILB. 
-		The worker node will add the Azure instrumentation key for application insights into the Panorama template for reach new spoke deployment. 
+	-	Worker node uses the Tabular storage table to keep track of the Azure VMSS table and Panorama device list. During a scale down 	event the worker node will deactivate the license in the Support Portal and remove the firewall from Panorama. 
+	-	The worker node updates the NAT address object in the Spoke VM-series with the correct IP address of the spoke ILB. 
+	-	The worker node will add the Azure instrumentation key for application insights into the Panorama template for reach new spoke deployment. 
 -	1 Tabular Storage Table
-		Stores VMSS device list data
+	-	Stores VMSS device list data
 
 
 [<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FPaloAltoNetworks%2FAzure-Transit-VNet-0.1%2Fmaster%2Fazure-hub%2FazureDeployInfra.json?token=AZoiWUdo2qPkcTjMXpY8_KOkrP2aBqp_ks5ahJwcwA%3D%3D)
@@ -38,9 +38,9 @@ This topology consists of
 -	1 UDR sending all default route traffic to the Hub VNet Standard Load Balancer.
 
 -	1 Bastion host
-		Used to connect to VM-Series firewalls in the VMSS via private Mgmt interface IP
+	-	Used to connect to VM-Series firewalls in the VMSS via private Mgmt interface IP
 -	Application insights
-		Used to process VM-Series metrics used to determine scale in & scale out events
+	-	Used to process VM-Series metrics used to determine scale in & scale out events
 
 
 # With VM-Series Firewall 
