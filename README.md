@@ -6,7 +6,7 @@
 
 - Now supports bootstrapping in both Hub and Spoke 
 - Now supports Virtual Machine Scale Sets in the Spoke
-For more info on the first release of Azure Transit VNet please see the Azure Transit VNet GitHub Repo
+- For more info on the first release of Azure Transit VNet please see the Azure Transit VNet GitHub Repo
 [First Release](https://github.com/PaloAltoNetworks/Azure-Transit-VNet).
 
 
