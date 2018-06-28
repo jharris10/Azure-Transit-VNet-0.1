@@ -6,8 +6,7 @@
 
 - Now supports bootstrapping in both Hub and Spoke 
 - Now supports Virtual Machine Scale Sets in the Spoke
-- For more info on the first release of Azure Transit VNet please see the Azure Transit VNet GitHub Repo
-[First Release](https://github.com/PaloAltoNetworks/Azure-Transit-VNet).
+- For more info on the first release of Azure Transit VNet please see the Azure Transit VNet [GitHub Repo] (https://github.com/PaloAltoNetworks/Azure-Transit-VNet).
 
 
 The Azure Transit VNet with the VM-Series deploys a hub and spoke architecture to centralize commonly used services such as security and secure connectivity. All traffic to and from the Spokes will “transit” the Hub VNet and will be protected by the VM-Series next generation firewall. To get started, the Hub VNet must be deployed first with the Spoke VNets being deployed subsequently. Once the Spoke is deployed, the VNets are dynamically peered to allow cross VNet communication. For more information on deployment please see the [Deployment Guide](https://github.com/PaloAltoNetworks/Azure-Transit-VNet-0.1/blob/master/documentation/Azure_Transit_VNet0.1_Deployment_Guide.pdf).
