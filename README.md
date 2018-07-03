@@ -63,8 +63,7 @@ This topology consists of
 # Deployment guide
 The deployment guide can be found [here](https://github.com/PaloAltoNetworks/Azure-Transit-VNet-0.1/blob/master/documentation/Azure_Transit_VNet0.1_Deployment_Guide.pdf)
 
-# Bootstrap the VM-Series Firewall on Azure
-[Bootstrap Instructions](https://www.paloaltonetworks.com/documentation/81/virtualization/virtualization/bootstrap-the-vm-series-firewall/bootstrap-the-vm-series-firewall-in-azure#idd51f75b8-e579-44d6-a809-2fafcfe4b3b6)
+Bootstrap the VM-Series Firewall on Azure [Bootstrap Instructions](https://www.paloaltonetworks.com/documentation/81/virtualization/virtualization/bootstrap-the-vm-series-firewall/bootstrap-the-vm-series-firewall-in-azure#idd51f75b8-e579-44d6-a809-2fafcfe4b3b6)
 
 
 
